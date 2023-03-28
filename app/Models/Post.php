@@ -11,7 +11,7 @@ class Post extends Model
 
     protected $table = 'post';
 
-    protected $fillable = ['post_title', 'post_body', 'user_id'];
+    protected $fillable = ['post_title', 'body', 'user_id'];
 
     public function user()
     {
